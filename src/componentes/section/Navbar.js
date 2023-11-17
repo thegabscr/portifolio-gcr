@@ -5,10 +5,11 @@ import Nav from 'react-bootstrap/Nav'
 function Navbar() {
     return (
         <div className={styles.navbar} >
-            <ul className='nav1'>
+            <ul>
                 <li> <Nav.Link href='#Presentation' > Apresentação </Nav.Link> </li>
-                <li> <Nav.Link href='#Skills' > Habilidades </Nav.Link></li>
+                <li> <Nav.Link href='#Skills' > Habilidades </Nav.Link> </li>
                 <li> <Nav.Link href='#Projects' > Projetos </Nav.Link> </li>
+
             </ul>
             <ul>
                 <li> <a href='https://www.instagram.com/_gcursino/'> <FaInstagram size={30} /> </a></li>

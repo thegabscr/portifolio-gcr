@@ -15,7 +15,7 @@ import tabuada from '../../image/projects/tabuada.svg'
 
 function Projects() {
     return (
-        <div className={styles.projects} >
+        <div className={styles.projects} id="Projects" >
             <h1> Projetos </h1>
             <Card className="card"
                 img={lpdnc}
@@ -29,7 +29,7 @@ function Projects() {
                 title="Portifólio - React"
                 tech="React"
                 description="Portifólio criado por React"
-                repo="..."
+                repo="https://github.com/thegabscr/portifolio-gcr"
                 site="..." />
             <Card
                 img={bootcamp}
